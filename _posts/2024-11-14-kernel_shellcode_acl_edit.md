@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "kernel_shellcode_acl_edit"
 date: 2024-11-14 21:00:00 -0000
 categories: posts
