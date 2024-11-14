@@ -2,7 +2,7 @@
 layout: post
 title: "kernel_shellcode_acl_edit"
 date: 2024-11-14 21:00:00 -0000
-categories: windows kernel exploitation hevd shellcode blog
+categories: posts
 ---
 
 # Revisiting Windows Kernel Shellcode on Windows 11: Stack Buffer Overflow with ACL Edit
@@ -171,7 +171,7 @@ These steps can be found at https://github.com/glslang/win-kexp/blob/main/src/pr
 
 Executing the exploit code and our elevated command prompt can be found below,
 
-![Launching the elevated command prompt](https://github.com/glslang/glslang.github.io/tree/main/_posts/img/acl_edit_system.png)
+![Launching the elevated command prompt](assets/images/acl_edit_system.png)
 
 ## Conclusion
 
