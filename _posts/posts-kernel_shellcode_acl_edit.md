@@ -1,5 +1,5 @@
 layout: post
-title: "Revisiting Windows Kernel Shellcode on Windows 11: Stack Buffer Overflow with ACL Edit"
+title: "kernel_shellcode_acl_edit"
 date: 2024-11-14 21:00:00 -0000
 categories: windows kernel exploitation hevd shellcode
 
