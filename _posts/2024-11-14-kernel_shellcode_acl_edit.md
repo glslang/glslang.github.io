@@ -171,7 +171,7 @@ These steps can be found at https://github.com/glslang/win-kexp/blob/main/src/pr
 
 Executing the exploit code and our elevated command prompt can be found below,
 
-![Launching the elevated command prompt](assets/images/acl_edit_system.png)
+![Launching the elevated command prompt](/assets/images/acl_edit_system.png)
 
 ## Conclusion
 
