@@ -167,7 +167,7 @@ The shellcode also contains an epilogue to restore the original stack and regist
 
 The remaining exploit code is for injecting the shellcode into the winlogon process and spawning the elevated command prompt. The injection is a standard injection. The handle to the victim process is returned, memory for the shellcode is allocated and written to the user space of the victim process, and then a remote thread is created to execute the shellcode.
 
-These steps can be found at https://github.com/glslang/win-kexp/blob/main/src/process.rs#L112.
+These steps can be found at [src/process.rs#L112](https://github.com/glslang/win-kexp/blob/main/src/process.rs#L112).
 
 Executing the exploit code and our elevated command prompt can be found below,
 
@@ -179,6 +179,6 @@ This post revisits the ACL edit technique on Windows 11 and demonstrates the tec
 
 ## References
 
-- https://blog.improsec.com/tech-blog/windows-kernel-shellcode-on-windows-10-part-2
-- https://github.com/hacksysteam/HackSysExtremeVulnerableDriver
-- https://github.com/glslang/win-kexp
+- [Improsec's blog post](https://blog.improsec.com/tech-blog/windows-kernel-shellcode-on-windows-10-part-2)
+- [HackSys Extreme Vulnerable Driver](https://github.com/hacksysteam/HackSysExtremeVulnerableDriver)
+- [win-kexp](https://github.com/glslang/win-kexp)
