@@ -15,7 +15,7 @@ This post revisits the ACL kernel shellcode technique demonstrated in [Improsec'
 
 The original technique involves changing the ACE of the SYSTEM entry, for the winlogon process, so that its SID matches that of the Authenticated Users group. In addition, the current process token mandatory integrity policy is changed to `TOKEN_MANDATORY_POLICY_OFF`. This is to allow the current process to get a handle to the winlogon process and create a remote thread to spawn an elevated command prompt.
 
-The mandatory policies can be found at https://learn.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-token_mandatory_policy.
+The mandatory policies can be found at [https://learn.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-token_mandatory_policy](https://learn.microsoft.com/en-us/windows/win32/api/winnt/ns-winnt-token_mandatory_policy).
 
 In what follows, this post will demonstrate the technique on Windows 11, version 23H2, along with full exploit code, from triggering the overflow to spawning the elevated command prompt. SMEP/KPTI are disabled.
 
