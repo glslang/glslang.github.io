@@ -161,7 +161,7 @@ find_system
 
 ```
 
-The full code can be found [here] (https://github.com/glslang/winkexp/blob/main/src/asm/token_stealing_arm64.asm).
+The full code can be found [here](https://github.com/glslang/winkexp/blob/main/src/asm/token_stealing_arm64.asm).
 
 ## Conclusion
 
