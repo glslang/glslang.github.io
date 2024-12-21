@@ -161,6 +161,8 @@ find_system
 
 ```
 
+The full code can be found [here] (https://github.com/glslang/winkexp/blob/main/src/asm/token_stealing_arm64.asm).
+
 ## Conclusion
 
 This post describes how token stealing can be implemented, and derived, on ARM64, and can serve as a reference on how to implement token stealing on other architectures.
