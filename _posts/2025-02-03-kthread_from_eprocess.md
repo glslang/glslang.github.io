@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Getting the address of a KTHREAD from EPROCESS using WinDbg"
-date: 2025-02-03 21:00:00 -0000
+date: 2025-02-03 20:00:00 -0000
 categories: posts
 ---
 
